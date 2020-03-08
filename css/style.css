@@ -1,0 +1,317 @@
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    background: url('../img/pattern.jpg') center center;
+    font-family: 'Cubano-Regular';
+}
+
+/*Font Faces*/
+@font-face {
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+#cover {
+    height: 100%;
+    background: url('../img/trees.jpg') center;
+    background-size: cover;
+    color: white
+}
+
+.wall-sticker {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 14rem 20rem 16rem 3rem;
+    font-family: Cubano-Regular;
+    font-size: 3rem;
+    color: white;
+    height: 100% ;
+}
+
+.moto {
+    font-family: Cubano-Regular;
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-left: 15rem;
+    text-align: center;
+}
+
+/* Buttons */
+.btn-lg,
+.btn-lg-outline {
+    background-color: transparent;
+    width: 9rem;
+    border-radius: 8px;
+    border: 1px solid rgba(8, 56, 10, 0);
+    font-family: Nunito-Regular;
+}
+
+.btn-lg:hover,
+.btn-lg:active,
+.btn-lg:focus {
+    background-color: rgba(19, 128, 36, 0.54);
+    border: 1px solid rgba(19, 128, 36, 0.54);
+    transition: 0.5s;
+}
+
+.btn-lg:hover,
+.btn-lg:active,
+.btn-lg:focus {
+    background-color: rgba(19, 128, 36, 0.54);
+    border: 1px solid rgba(19, 128, 36, 0.54);
+    transition: 0.5s;
+}
+
+/*SPANS*/
+.bold-green {
+    color: rgba(19, 128, 36, 0.54);
+}
+
+/* NAVBAR */
+.navbar-brand {
+    font-family: Cubano-Regular;
+    padding-right: 15px;
+}
+
+#main-nav {
+    font-family: Nunito-Regular;
+}
+
+#main-nav li a {
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+    color: white;
+}
+
+#main-nav a {
+    color: white;
+}
+
+#main-nav a:hover {
+    border-bottom: 1px solid green;
+    transition: 0.5s;
+    color: green;
+}
+
+/* Section Feature Content */
+
+.section-feature {
+    padding: 5rem 0rem;
+    background: url('../img/pattern.jpg') center center;
+}
+
+.square {
+    text-align: center;
+}
+
+.square i {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.square i:hover {
+    color: green;
+    transition: 0.3s ;
+}
+
+.square p {
+    padding-top: 1rem;
+    font-family: Nunito-Regular;
+    font-size: 1.2rem;
+}
+
+.hr-green {
+    border-top: 1px solid green;
+    width: 150px;
+}
+
+.feature-heading {
+    text-align: center;
+}
+
+.under-heading {
+    text-align: center;
+}
+
+/* Section Timeline */
+.section-timeline {
+    background-color: white;
+    padding-top: 5rem;
+}
+.timeline {
+    list-style: none;   
+    padding: 20px 0px 80px;
+    padding-top: 50px;
+    position: relative;
+}
+
+/* Grey line in between */
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin: -1.5px;
+}
+
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:before ,
+.timeline > li:after {
+    content: "";
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li > .timeline-panal {
+    width: 50%;
+    padding: 2rem;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+}
+
+.timeline p {
+    font-family: Nunito-Regular;
+    font-weight: 700; 
+}
+
+.timeline > li:not(.timeline-inverted) {
+    padding-right: 90px;
+}
+
+.timeline > li.timeline-inverted {
+    padding-left: 90px;
+}
+
+.timeline > li > .timeline-badge {
+    font-size: 1rem !important;
+    color : #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: rgba(19,128,36,0.82);
+    border-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panal {
+    float: right;  
+}
+.fa.fa-clock-o {
+    padding-right: 5px;
+}
+
+/* SECTION PARALLAX*/
+    
+#section-parallax {
+    text-align: center;
+    background: url('../img/trees.jpg') center repeat fixed;
+    padding: 140px 0px;
+    background-size: cover;
+    color: white;
+}
+.parallax-btn {
+    width: 200px;
+    margin: 30px auto 0px auto;
+}
+
+/*SECTION CARDS */
+
+#section-cards {
+    padding: 5rem 0; 
+}
+
+#section-cards h2 {
+    text-align: center;
+}
+.card {
+    margin-top: 3rem;
+}
+.card a {
+    color: rgba(19,128,36,0.8);
+}
+.card a:hover {
+    color: rgba(19,128,36);
+}
+.card img {
+    width: 345px;
+    height: 180px;
+}
+.card img:hover {
+    transform: scale(0.95);
+    transition: 1s;
+}
+
+/* Section Numbers  */
+
+#section-numbers {
+    background-color: white;
+    padding-top:  5rem;
+}
+h2 {
+    text-align: center
+}
+
+.num-content {
+    display: table;
+    font-size: 20px;
+    line-height: 20px;
+    height: 140px;
+    width: 140px;
+    background: rgba(19,128,36,0.98);
+    border-radius: 50%;
+    color: white;
+    transition: 0.3s;
+}
+.num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+.num {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: 80px;
+}
+
+.num-content p {
+    padding-top: 15px;
+}
+
+.num-content:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+/* Section Testimonial */
+
+.section-testimonials {
+    padding-top: 5rem;
+}
+
+#testimonials {
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
