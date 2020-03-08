@@ -305,6 +305,7 @@ h2 {
     transition: 0.3s;
 }
 
+
 /* Section Testimonial */
 
 .section-testimonials {
@@ -314,4 +315,25 @@ h2 {
 #testimonials {
     margin-top: 5rem;
     padding-bottom: 5rem;
+}
+.mario-img {
+    width: 135px;
+    height: auto;
+    border-radius: 50%;
+}
+.mario-img:hover {
+    transition: 0.5s;
+    transform: scale(0.92);
+    cursor: pointer;
+}
+blockquote {
+    font-family: Nunito-Regular;
+}
+.fa .fa-quote-right {
+    margin-right: 10px;
+}
+.testimonial-hr {
+    border-top: 1px solid rgba(19, 128, 36, 0.54);
+    width: 260px;
+    background-color: rgba(19,128,36,1);
 }
